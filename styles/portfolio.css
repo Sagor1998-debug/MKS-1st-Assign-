@@ -60,3 +60,50 @@ header {
     text-align: center;
     align-items: center;
 }
+section{
+    padding: 5px 2.5px;
+    margin: 0;
+    gap: 5px;
+}
+.see-it {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap:5px;
+    flex-direction: row;
+    padding: 40px 20px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.content {
+    flex: 1;
+    align-items: left;
+
+}
+
+.see-it h2 {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 14px;
+}
+
+.see-it p {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 30px;
+
+}
+
+.image-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+
+}
